@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./public.css"/>
+    <title>Job Organizer</title>
+  </head>
+  <body>
+    <main>
+    <div class="topbar"></div>
+    <div class="topnav">
+      <a href="home.html" color="white">Home</a>
+      <a class="active" href="addjobs.html">Add</a>
+      <a href="viewall.html">View All</a>
+      <p class="title">Job Helper</p>
+    </div>
+    <form>
+      <div class="inputs"><h5>Job Name</h5>
+      <input type="text" id="jobName"/>
+      <div><h5>Job Number</h5>
+      <input type="text" id="jobNum" />
+      <div><h5>Part Number</h5>
+      <input type="text" id="partNum" />
+      <div><h5>Part Section</h5>
+      <input type="text" id="partSect" />
+      <div><h5>Due Date</h5>
+        <input type="date" id="duedate"/>
+      <!-- </div> -->
+     
+    </div>
+    <button>Add</button> 
+  </form>
+  <!-- <img src="../images/img1.jpeg" -->
+    <!-- <section id="jobs-container"></section> -->
+  </main>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="./index.js"></script>
+  </body>
+</html>
