@@ -9,7 +9,7 @@ app.use(cors());
 
 app.use(express.static("public"));
 
-app.get("/index.js", (req, res) => {
+app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "../public/home.html"));
 });
 
