@@ -20,4 +20,6 @@ app.post(`/api/jobs`, createJob);
 app.delete(`/api/jobs/:id`, deleteJob);
 // app.put(`/api/houses/:id`, updateHouse);
 
-app.listen(4004, () => console.log("Server running on port 4004"));
+app.listen(process.env.PORT || 4004, () =>
+  console.log("Server running on port 4004")
+);
