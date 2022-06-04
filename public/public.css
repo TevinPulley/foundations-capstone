@@ -53,7 +53,8 @@ html {
 }
 
 div h5 {
-  padding-left: 30px;
+  padding-left: 70px;
+  padding-right: 70px;
 }
 
 .home1 {
@@ -107,6 +108,7 @@ button {
   border-radius: 12px;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
+  text-align: center;
 }
 
 button.delete {
@@ -114,8 +116,4 @@ button.delete {
   margin-top: 20px;
   margin-right: 30px;
   margin-left: 30px;
-}
-
-div.job-card {
-  text-align: center;
 }
