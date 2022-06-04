@@ -1,7 +1,7 @@
 const housesContainer = document.querySelector("#jobs-container");
 const form = document.querySelector("form");
 
-const baseURL = `http://localhost:4004/api/jobs`;
+const baseURL = `/api/jobs`;
 
 const jobsCallback = ({ data: jobs }) => displayJobs(jobs);
 const errCallback = (err) => console.log(err);
