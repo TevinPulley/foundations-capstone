@@ -107,6 +107,7 @@ button {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   text-align: center;
+  display: table;
 }
 
 button.delete {
