@@ -1,5 +1,14 @@
 body,
 html {
+  height: 100%; /* ges Hoehe der Seite -> weitere Hoehenangaben werden relativ hierzu ausgewertet */
+  overflow: hidden; /*  hide scrollbars */
+  opacity: 1;
+  -webkit-transition: background 1.5s linear;
+  -moz-transition: background 1.5s linear;
+  -o-transition: background 1.5s linear;
+  -ms-transition: background 1.5s linear;
+  transition: background 1.5s linear;
+  /*//////////////////////*/
   margin: 0;
   padding: 0;
   background-image: url(./images/img2.jpeg);
@@ -107,7 +116,6 @@ button {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   text-align: center;
-  display: table;
 }
 
 button.delete {
